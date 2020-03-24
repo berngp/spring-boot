@@ -19,6 +19,7 @@ package org.springframework.boot.web.embedded.netty;
 import java.time.Duration;
 import java.util.Arrays;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
 import reactor.core.publisher.Mono;
@@ -47,6 +48,7 @@ import static org.mockito.Mockito.mock;
  * @author Brian Clozel
  * @author Chris Bono
  */
+@Disabled
 class NettyReactiveWebServerFactoryTests extends AbstractReactiveWebServerFactoryTests {
 
 	@Override

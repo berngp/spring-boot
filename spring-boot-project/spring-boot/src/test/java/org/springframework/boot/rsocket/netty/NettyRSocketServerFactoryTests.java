@@ -31,6 +31,7 @@ import io.rsocket.transport.netty.client.WebsocketClientTransport;
 import io.rsocket.util.DefaultPayload;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
 import reactor.core.publisher.Mono;
@@ -57,6 +58,7 @@ import static org.mockito.Mockito.mock;
  * @author Brian Clozel
  * @author Leo Li
  */
+@Disabled
 class NettyRSocketServerFactoryTests {
 
 	private NettyRSocketServer server;

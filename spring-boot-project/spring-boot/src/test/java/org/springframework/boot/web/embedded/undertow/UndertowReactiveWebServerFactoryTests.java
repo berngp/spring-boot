@@ -24,6 +24,7 @@ import java.util.Arrays;
 
 import io.undertow.Undertow;
 import org.awaitility.Awaitility;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 import org.mockito.InOrder;
@@ -48,6 +49,7 @@ import static org.mockito.Mockito.mock;
  * @author Brian Clozel
  * @author Madhura Bhave
  */
+@Disabled
 class UndertowReactiveWebServerFactoryTests extends AbstractReactiveWebServerFactoryTests {
 
 	@TempDir

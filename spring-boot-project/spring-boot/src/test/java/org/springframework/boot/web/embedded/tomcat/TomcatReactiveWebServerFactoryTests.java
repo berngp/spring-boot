@@ -62,6 +62,7 @@ import static org.mockito.Mockito.verify;
  * @author Madhura Bhave
  * @author HaiTao Zhang
  */
+@Disabled
 class TomcatReactiveWebServerFactoryTests extends AbstractReactiveWebServerFactoryTests {
 
 	@Override
